@@ -1,0 +1,13 @@
+name: CI_CD
+
+on:
+  push:
+     branches: [ main ]
+
+job:
+  demo:
+    run-on: ubuntu-latest
+
+steps:
+  -name: Greetings
+   run: echo "hello world"
